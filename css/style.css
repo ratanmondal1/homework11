@@ -1,0 +1,79 @@
+/* common css */
+body{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: ;
+}
+/* common css end */
+/* table css start */
+#customers{
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+   
+}
+#customers td,#customers th{
+	border: 1px solid #dddd;
+	padding: 8px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:hover {background-color: #dddd;}
+#customers th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #04AA6D;
+	color: white;
+
+}
+/*table css end */
+
+/*list css start*/
+ul.a{
+	list-style-type: circle ;
+}
+ul.b{
+list-style-type: square;
+}
+ol.c{
+list-style-type: upper-roman;
+}
+ol.d{
+	list-style-type: lower-alpha;
+
+}
+
+/*list css end*/
+
+ /* box css start */
+.box{
+	background-color: lightblue;
+	width: 300px;
+	border: 20px solid green;
+	padding:50px ;
+	margin: 15px;
+
+
+}
+.padding{
+	padding:50px;
+	border: 1px solid #4CAF50;
+	text-align: center;
+	background-color: lightblue;
+}
+.ex1{
+   width: 500px;
+   margin: auto;
+   border: 5px solid #73AD21;
+}
+.ex2{
+	max-width: 500px;
+	margin: auto;
+    border: 5px solid #73AD21;
+}
+
+a{
+	color: hotpink;
+}
